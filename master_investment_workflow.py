@@ -1,3 +1,4 @@
+###Original version that has to run stock analysis in the process
 # master_investment_workflow.py
 """
 Master Investment Workflow - Aurite AI Project
