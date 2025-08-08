@@ -1,0 +1,184 @@
+{
+  "allocations": [
+    {
+      "ticker": "JNK",
+      "asset_class": "bond",
+      "weight": 0.20000000000000007,
+      "dollar_amount": 3600.0000000000014,
+      "shares": 36,
+      "entry_price": 99.39859290893669,
+      "expected_return": 0.045,
+      "risk_contribution": 0.016000000000000007,
+      "implementation_priority": 1,
+      "execution_instructions": "Place limit order at mid-point"
+    },
+    {
+      "ticker": "AMZN",
+      "asset_class": "stock",
+      "weight": 0.20000000000000007,
+      "dollar_amount": 3600.0000000000014,
+      "shares": 36,
+      "entry_price": 99.30073492269332,
+      "expected_return": 0.12,
+      "risk_contribution": 0.05000000000000002,
+      "implementation_priority": 2,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "GDX",
+      "asset_class": "gold",
+      "weight": 0.20000000000000007,
+      "dollar_amount": 3600.0000000000014,
+      "shares": 35,
+      "entry_price": 102.24774565319315,
+      "expected_return": 0.07,
+      "risk_contribution": 0.03000000000000001,
+      "implementation_priority": 3,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "GOOGL",
+      "asset_class": "stock",
+      "weight": 0.20000000000000004,
+      "dollar_amount": 3600.000000000001,
+      "shares": 37,
+      "entry_price": 96.45702670128122,
+      "expected_return": 0.12,
+      "risk_contribution": 0.05000000000000001,
+      "implementation_priority": 4,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "MSFT",
+      "asset_class": "stock",
+      "weight": 0.19999999999999984,
+      "dollar_amount": 3599.9999999999973,
+      "shares": 34,
+      "entry_price": 102.88488497209501,
+      "expected_return": 0.12,
+      "risk_contribution": 0.04999999999999996,
+      "implementation_priority": 5,
+      "execution_instructions": "Market order acceptable"
+    }
+  ],
+  "risk_metrics": {
+    "portfolio_volatility": 0.15723868993099208,
+    "sharpe_ratio": 0.31798789484918555,
+    "sortino_ratio": 0.4542684212131223,
+    "max_drawdown": 0.3930967248274802,
+    "var_95": 0.16363462943009036,
+    "cvar_95": 0.22933825955634615,
+    "beta": 0.6879192684480903,
+    "alpha": 0.01216444023535504,
+    "information_ratio": 0.2432888047071008,
+    "calmar_ratio": 0.24167080008538103,
+    "correlation_risk": 0.42105580750504146,
+    "concentration_risk": 0.20000000000000004
+  },
+  "expected_performance": {
+    "1_year": {
+      "expected_value": 1.095,
+      "best_case": 1.4094773798619842,
+      "worst_case": 0.7805226201380158,
+      "probability_positive": 0.7271370147397149
+    },
+    "5_year": {
+      "expected_value": 1.5742387409343748,
+      "best_case": 3.079183631314256,
+      "worst_case": 0.7252062758528259,
+      "probability_double": 0.732380686568541
+    },
+    "10_year": {
+      "expected_value": 2.4782276134586456,
+      "best_case": 6.458211093435039,
+      "worst_case": 1.1764240774586643,
+      "probability_triple": 0.6177812374886107
+    }
+  },
+  "rebalancing_schedule": {
+    "frequency": "quarterly",
+    "threshold": 0.05,
+    "method": "threshold_based",
+    "tax_aware": false,
+    "next_rebalance": "2025-11-05",
+    "estimated_cost": 18.0
+  },
+  "tax_optimization": {
+    "tax_loss_harvesting": false,
+    "asset_location": {},
+    "holding_period": {},
+    "estimated_tax_savings": 0
+  },
+  "implementation_plan": [
+    "1\ufe0f\u20e3 Open account: Start with a taxable brokerage account",
+    "2\ufe0f\u20e3 Timing: Market conditions favorable for immediate implementation",
+    "3\ufe0f\u20e3 Execution Order:",
+    "   \u2022 Bonds first (most stable prices): JNK",
+    "   \u2022 Large-cap stocks next: AMZN, GOOGL, MSFT",
+    "   \u2022 Alternatives last: GDX",
+    "4\ufe0f\u20e3 Trading Instructions:",
+    "   \u2022 Use limit orders for positions > $5,000",
+    "   \u2022 Market orders acceptable for liquid ETFs",
+    "   \u2022 Avoid trading in first/last 30 minutes",
+    "5\ufe0f\u20e3 Post-Implementation:",
+    "   \u2022 Set up automatic rebalancing alerts",
+    "   \u2022 Enable dividend reinvestment",
+    "   \u2022 Schedule quarterly review"
+  ],
+  "monitoring_alerts": [
+    {
+      "type": "drawdown",
+      "threshold": 0.1965483624137401,
+      "message": "Alert when portfolio drops 19.7%",
+      "severity": "high"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "JNK",
+      "threshold": 0.05,
+      "message": "Alert when JNK deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "AMZN",
+      "threshold": 0.05,
+      "message": "Alert when AMZN deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "GDX",
+      "threshold": 0.05,
+      "message": "Alert when GDX deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "GOOGL",
+      "threshold": 0.05,
+      "message": "Alert when GOOGL deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "MSFT",
+      "threshold": 0.05,
+      "message": "Alert when MSFT deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "volatility_spike",
+      "threshold": 0.2358580348964881,
+      "message": "Alert when volatility increases 50%",
+      "severity": "high"
+    },
+    {
+      "type": "correlation_change",
+      "threshold": 0.2,
+      "message": "Alert when correlations increase significantly",
+      "severity": "medium"
+    }
+  ],
+  "ai_insights": "\u26a0\ufe0f Portfolio is concentrated - consider diversifying to reduce risk | \u2696\ufe0f Balanced allocation: 60% stocks, 20% bonds"
+}

@@ -421,6 +421,8 @@ Model: {pred.get('model_used', 'N/A')}
             # Save to file if path provided
             if filepath:
                 import json
+                # Ensure directory exists
+                os.makedirs(os.path.dirname(filepath), exist_ok=True)
                 with open(filepath, 'w') as f:
                     json.dump(macro_signals, f, indent=2)
                 logger.info(f"📄 Macro signals saved to: {filepath}")
@@ -551,7 +553,14 @@ def main():
         # Export macro signals as JSON for asset analysis consumption
         print("\n📄 Exporting macro signals as JSON...")
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        json_filepath = f"macro_signals_{timestamp}.json"
+        
+        # Ensure analysis_outputs directory exists
+        output_dir = "analysis_outputs"
+        os.makedirs(output_dir, exist_ok=True)
+        
+        # Save to analysis_outputs folder
+        json_filename = f"macro_signals_{timestamp}.json"
+        json_filepath = os.path.join(output_dir, json_filename)
         
         macro_signals = analyzer.export_macro_signals_json(json_filepath)
         

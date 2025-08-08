@@ -1,0 +1,293 @@
+{
+  "allocations": [
+    {
+      "ticker": "GC=F",
+      "asset_class": "gold",
+      "weight": 0.08333333333333333,
+      "dollar_amount": 1666.6666666666665,
+      "shares": 16,
+      "entry_price": 98.14897143081433,
+      "expected_return": 0.02,
+      "risk_contribution": 0.012499999999999999,
+      "implementation_priority": 1,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "VCLT",
+      "asset_class": "bond",
+      "weight": 0.08333333333333333,
+      "dollar_amount": 1666.6666666666665,
+      "shares": 16,
+      "entry_price": 101.39773127914128,
+      "expected_return": 0.03,
+      "risk_contribution": 0.006666666666666666,
+      "implementation_priority": 2,
+      "execution_instructions": "Place limit order at mid-point"
+    },
+    {
+      "ticker": "TIP",
+      "asset_class": "bond",
+      "weight": 0.08333333333333333,
+      "dollar_amount": 1666.6666666666665,
+      "shares": 16,
+      "entry_price": 98.04227730797086,
+      "expected_return": 0.025,
+      "risk_contribution": 0.006666666666666666,
+      "implementation_priority": 3,
+      "execution_instructions": "Place limit order at mid-point"
+    },
+    {
+      "ticker": "EMB",
+      "asset_class": "bond",
+      "weight": 0.08333333333333333,
+      "dollar_amount": 1666.6666666666665,
+      "shares": 17,
+      "entry_price": 96.83202892293677,
+      "expected_return": 0.03,
+      "risk_contribution": 0.006666666666666666,
+      "implementation_priority": 4,
+      "execution_instructions": "Place limit order at mid-point"
+    },
+    {
+      "ticker": "HYG",
+      "asset_class": "bond",
+      "weight": 0.08333333333333333,
+      "dollar_amount": 1666.6666666666665,
+      "shares": 16,
+      "entry_price": 101.74851627798205,
+      "expected_return": 0.03,
+      "risk_contribution": 0.006666666666666666,
+      "implementation_priority": 5,
+      "execution_instructions": "Place limit order at mid-point"
+    },
+    {
+      "ticker": "GLD",
+      "asset_class": "gold",
+      "weight": 0.08333333333333333,
+      "dollar_amount": 1666.6666666666665,
+      "shares": 16,
+      "entry_price": 99.07306697672422,
+      "expected_return": 0.03,
+      "risk_contribution": 0.012499999999999999,
+      "implementation_priority": 6,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "IAU",
+      "asset_class": "gold",
+      "weight": 0.08333333333333333,
+      "dollar_amount": 1666.6666666666665,
+      "shares": 16,
+      "entry_price": 100.28415783333014,
+      "expected_return": 0.03,
+      "risk_contribution": 0.012499999999999999,
+      "implementation_priority": 7,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "LQD",
+      "asset_class": "bond",
+      "weight": 0.08333333333333333,
+      "dollar_amount": 1666.6666666666665,
+      "shares": 16,
+      "entry_price": 100.84310578739799,
+      "expected_return": 0.03,
+      "risk_contribution": 0.006666666666666666,
+      "implementation_priority": 8,
+      "execution_instructions": "Place limit order at mid-point"
+    },
+    {
+      "ticker": "IGSB",
+      "asset_class": "bond",
+      "weight": 0.08333333333333333,
+      "dollar_amount": 1666.6666666666665,
+      "shares": 16,
+      "entry_price": 101.26521410615084,
+      "expected_return": 0.03,
+      "risk_contribution": 0.006666666666666666,
+      "implementation_priority": 9,
+      "execution_instructions": "Place limit order at mid-point"
+    },
+    {
+      "ticker": "IEF",
+      "asset_class": "bond",
+      "weight": 0.08333333333333333,
+      "dollar_amount": 1666.6666666666665,
+      "shares": 16,
+      "entry_price": 101.82006172400406,
+      "expected_return": 0.03,
+      "risk_contribution": 0.006666666666666666,
+      "implementation_priority": 10,
+      "execution_instructions": "Place limit order at mid-point"
+    },
+    {
+      "ticker": "JNK",
+      "asset_class": "bond",
+      "weight": 0.08333333333333333,
+      "dollar_amount": 1666.6666666666665,
+      "shares": 16,
+      "entry_price": 100.06636356591439,
+      "expected_return": 0.045,
+      "risk_contribution": 0.006666666666666666,
+      "implementation_priority": 11,
+      "execution_instructions": "Place limit order at mid-point"
+    },
+    {
+      "ticker": "GDX",
+      "asset_class": "gold",
+      "weight": 0.08333333333333333,
+      "dollar_amount": 1666.6666666666665,
+      "shares": 16,
+      "entry_price": 101.7338938355377,
+      "expected_return": 0.07,
+      "risk_contribution": 0.012499999999999999,
+      "implementation_priority": 12,
+      "execution_instructions": "Market order acceptable"
+    }
+  ],
+  "risk_metrics": {
+    "portfolio_volatility": 0.07146979978681495,
+    "sharpe_ratio": -0.16323911220497064,
+    "sortino_ratio": -0.23319873172138664,
+    "max_drawdown": 0.17867449946703737,
+    "var_95": 0.08422402606350485,
+    "cvar_95": 0.11408833803692134,
+    "beta": 0.3126803740673154,
+    "alpha": -0.028864087240369027,
+    "information_ratio": -0.5772817448073805,
+    "calmar_ratio": 0.1865589853771092,
+    "correlation_risk": 0.4450794132622624,
+    "concentration_risk": 0.08333333333333334
+  },
+  "expected_performance": {
+    "1_year": {
+      "expected_value": 1.0333333333333334,
+      "best_case": 1.1762729329069632,
+      "worst_case": 0.8903937337597035,
+      "probability_positive": 0.6795344865970221
+    },
+    "5_year": {
+      "expected_value": 1.1781543621399182,
+      "best_case": 1.6459797425893812,
+      "worst_case": 0.8233174110699135,
+      "probability_double": 0.9995052000977879
+    },
+    "10_year": {
+      "expected_value": 1.3880477010293177,
+      "best_case": 2.2270848136458414,
+      "worst_case": 0.9762422177215444,
+      "probability_triple": 0.9996477160053163
+    }
+  },
+  "rebalancing_schedule": {
+    "frequency": "semi-annual",
+    "threshold": 0.07,
+    "method": "threshold_based",
+    "tax_aware": true,
+    "next_rebalance": "2026-02-03",
+    "estimated_cost": 20.0
+  },
+  "tax_optimization": {
+    "tax_loss_harvesting": true,
+    "asset_location": {
+      "GC=F": "tax_free",
+      "VCLT": "tax_deferred",
+      "TIP": "tax_deferred",
+      "EMB": "tax_deferred",
+      "HYG": "tax_deferred",
+      "GLD": "tax_free",
+      "IAU": "tax_free",
+      "LQD": "tax_deferred",
+      "IGSB": "tax_deferred",
+      "IEF": "tax_deferred",
+      "JNK": "tax_deferred",
+      "GDX": "tax_free"
+    },
+    "holding_period": {
+      "GC=F": "flexible",
+      "VCLT": "flexible",
+      "TIP": "flexible",
+      "EMB": "flexible",
+      "HYG": "flexible",
+      "GLD": "flexible",
+      "IAU": "flexible",
+      "LQD": "flexible",
+      "IGSB": "flexible",
+      "IEF": "flexible",
+      "JNK": "flexible",
+      "GDX": "flexible"
+    },
+    "estimated_tax_savings": 40.0
+  },
+  "implementation_plan": [
+    "1\ufe0f\u20e3 Open account: Start with a taxable brokerage account",
+    "2\ufe0f\u20e3 Timing: Market conditions favorable for immediate implementation",
+    "3\ufe0f\u20e3 Execution Order:",
+    "   \u2022 Bonds first (most stable prices): VCLT, TIP, EMB",
+    "   \u2022 Alternatives last: GC=F, GLD",
+    "4\ufe0f\u20e3 Trading Instructions:",
+    "   \u2022 Use limit orders for positions > $5,000",
+    "   \u2022 Market orders acceptable for liquid ETFs",
+    "   \u2022 Avoid trading in first/last 30 minutes",
+    "5\ufe0f\u20e3 Post-Implementation:",
+    "   \u2022 Set up automatic rebalancing alerts",
+    "   \u2022 Enable dividend reinvestment",
+    "   \u2022 Schedule quarterly review"
+  ],
+  "monitoring_alerts": [
+    {
+      "type": "drawdown",
+      "threshold": 0.08933724973351868,
+      "message": "Alert when portfolio drops 8.9%",
+      "severity": "high"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "GC=F",
+      "threshold": 0.05,
+      "message": "Alert when GC=F deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "VCLT",
+      "threshold": 0.05,
+      "message": "Alert when VCLT deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "TIP",
+      "threshold": 0.05,
+      "message": "Alert when TIP deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "EMB",
+      "threshold": 0.05,
+      "message": "Alert when EMB deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "HYG",
+      "threshold": 0.05,
+      "message": "Alert when HYG deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "volatility_spike",
+      "threshold": 0.10720469968022242,
+      "message": "Alert when volatility increases 50%",
+      "severity": "high"
+    },
+    {
+      "type": "correlation_change",
+      "threshold": 0.2,
+      "message": "Alert when correlations increase significantly",
+      "severity": "medium"
+    }
+  ],
+  "ai_insights": "\ud83d\udee1\ufe0f Conservative portfolio with low volatility - suitable for capital preservation | \ud83c\udf10 Excellent diversification across assets - well-protected against single-asset risk | \ud83c\udfdb\ufe0f Income-focused with 67% fixed income allocation | \ud83d\udcca Tax-optimized allocation with estimated 0.2% annual tax alpha"
+}

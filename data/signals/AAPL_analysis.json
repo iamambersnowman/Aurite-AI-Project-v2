@@ -1,0 +1,53 @@
+{
+  "company_info": {
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "sector": "Technology",
+    "industry": "Consumer Electronics",
+    "market_cap": 3265333035008,
+    "employees": 150000,
+    "description": "Apple Inc. designs, manufactures, and markets smartphones, personal computers, tablets, wearables, and accessories worldwide. The company offers iPhone, a line of smartphones; Mac, a line of personal computers; iPad, a line of multi-purpose tablets; and wearables, home, and accessories comprising Ai...",
+    "website": "https://www.apple.com",
+    "currency": "USD"
+  },
+  "key_metrics": {
+    "pe_ratio": 32.357353,
+    "forward_pe": 26.477736,
+    "pb_ratio": 49.65696,
+    "ps_ratio": 7.9910264,
+    "ev_revenue": 8.104,
+    "ev_ebitda": 23.372,
+    "roe": 1.49814,
+    "roa": 0.24545999,
+    "gross_margin": 0.46678,
+    "operating_margin": 0.29990998,
+    "net_margin": 99280003072,
+    "debt_to_equity": 154.486,
+    "current_ratio": 0.868,
+    "quick_ratio": 0.724,
+    "revenue_growth": 0.096,
+    "earnings_growth": 0.121,
+    "earnings_quarterly_growth": 0.093,
+    "dividend_yield": 0.49,
+    "payout_ratio": 0.1533,
+    "dividend_rate": 1.04,
+    "beta": 1.165,
+    "book_value": 4.431,
+    "price_to_book": 49.65696,
+    "52w_high": 260.1,
+    "52w_low": 169.21,
+    "market_cap": 3265333035008,
+    "enterprise_value": 3311657025536
+  },
+  "signal": {
+    "signal": "Hold",
+    "reason": "No reason provided",
+    "risk": "No risk identified",
+    "target_price": 255.0,
+    "score": 5.0,
+    "confidence": "high",
+    "raw_response": "```json\n{\n  \"signal\": \"Hold\",\n  \"confidence\": 7,\n  \"thesis\": \"Apple's robust financials and innovation pipeline support stability, but high valuations and regulatory risks suggest caution.\",\n  \"primary_risk\": \"Regulatory challenges with a 30% probability\",\n  \"secondary_risk\": \"Market saturation with a 25% probability\",\n  \"target_price\": 255.0,\n  \"upside_scenario\": 280.0,\n  \"downside_scenario\": 230.0,\n  \"stop_loss\": 220.0,\n  \"position_size\": \"5-7% of portfolio\",\n  \"investment_score\": 7.5,\n  \"time_horizon\": \"12-18 months\",\n  \"rebalancing_triggers\": [\"Earnings miss\", \"Technical breakdown\", \"Significant macroeconomic changes\"]\n}\n```"
+  },
+  "analysis": "**1. FUNDAMENTAL ANALYSIS**\n\nApple Inc. demonstrates robust financial health, evidenced by consistent revenue growth of 9.6% and earnings growth of 12.1%. The company's profitability metrics are strong, with a gross margin of 46.7% and an operating margin of 29.99%, reflecting efficient cost management and pricing power. Free cash flow remains substantial at $108.8 billion, supporting shareholder returns through stock repurchases and dividends. However, the debt-to-equity ratio of 154.5% suggests a high leverage level, which could pose risks if interest rates rise.\n\nValuation metrics indicate a premium, with a PE ratio of 32.36 and a PB ratio of 49.66, higher than industry averages. This premium reflects Apple's strong brand, innovation capabilities, and market leadership. The company's competitive position is fortified by its ecosystem, brand loyalty, and continuous innovation, providing a significant moat.\n\nGrowth prospects are promising, driven by organic growth in services and wearables, expansion into new markets, and a robust innovation pipeline, including potential advancements in AR/VR and AI. However, risks include reliance on iPhone sales, regulatory scrutiny, and supply chain disruptions.\n\n**2. TECHNICAL ANALYSIS**\n\nApple's stock exhibits a bullish trend, trading above the 20-day moving average, indicating positive momentum. The RSI at 54 suggests a neutral stance, while the recent bearish MACD cross signals potential short-term weakness. Key support levels are around $240, with resistance near $260. The annualized volatility of 16.5% is moderate, suggesting stable price movements. Bollinger Bands indicate the stock is trading near the middle band, implying consolidation. Overall, the technical setup suggests cautious optimism, with potential for upward movement if resistance levels are breached.\n\n**3. MACROECONOMIC CONTEXT**\n\nThe technology sector remains robust, driven by digital transformation and innovation. However, regulatory scrutiny and geopolitical tensions, particularly in US-China trade relations, pose risks. Apple's sensitivity to interest rates is moderate due to its strong cash flow, but inflationary pressures could impact consumer spending. The company's global market exposure provides diversification but also subjects it to currency fluctuations and regional economic conditions.\n\n**4. INVESTMENT RECOMMENDATION**\n\nRecommendation: Hold (Conviction Level: 7)\n\nApple's strong financial performance, market leadership, and innovation pipeline support a hold recommendation. Key supporting points include robust cash flow, a strong ecosystem, and growth in services and wearables. However, high valuation multiples and potential regulatory risks warrant caution. Risk-adjusted return expectations are moderate, with a 12-18 month horizon. Major risks include regulatory challenges and market saturation, mitigated by diversification and innovation. Portfolio positioning should consider Apple as a core holding, given its stability and growth potential, but investors should remain vigilant of macroeconomic and sector-specific developments.",
+  "technical_summary": "Current Price: $249.82 (-0.71%)\nTrend: Bullish, price above 20-day MA\nRSI: 54.0 (Neutral)\nMACD: Bearish Cross\nAnnualized Volatility: 16.5% (Medium)\nBollinger Bands: Middle band area"
+}

@@ -729,15 +729,22 @@ class GoldAnalysisAgent:
     
     def save_predictions(self, predictions: Dict, filename: str = None) -> str:
         """Save gold predictions to JSON file"""
+        # Ensure analysis_outputs directory exists
+        output_dir = "analysis_outputs"
+        os.makedirs(output_dir, exist_ok=True)
+        
         if filename is None:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             filename = f"gold_predictions_{timestamp}.json"
         
+        # Always save to analysis_outputs folder
+        filepath = os.path.join(output_dir, filename)
+        
         try:
-            with open(filename, 'w') as f:
+            with open(filepath, 'w') as f:
                 json.dump(predictions, f, indent=2)
-            logger.info(f"✅ Gold predictions saved to {filename}")
-            return filename
+            logger.info(f"✅ Gold predictions saved to {filepath}")
+            return filepath
         except Exception as e:
             logger.error(f"❌ Error saving gold predictions: {e}")
             return ""
@@ -885,6 +892,11 @@ async def main():
     
     # Print summary
     agent.print_summary(results)
+    
+    # Save results
+    filename = agent.save_predictions(results)
+    if filename:
+        print(f"\n💾 Gold analysis results saved to: {filename}")
     
     # Get top picks
     top_picks = agent.get_top_gold_picks(results, horizon='next_year', top_n=3)

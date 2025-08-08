@@ -1,0 +1,735 @@
+{
+  "session_id": "session_20250807_215402",
+  "timestamp": "2025-08-07T21:54:02.754292",
+  "agent1_profile": {
+    "investment_amount": 20000.0,
+    "risk_level": "conservative",
+    "time_horizon": 5,
+    "investment_goal": "wealth",
+    "monthly_contribution": 0,
+    "preferred_sectors": [],
+    "avoid_sectors": [],
+    "needs_liquidity": false,
+    "prefers_esg": false,
+    "tax_sensitive": false,
+    "user_sophistication": "beginner",
+    "behavioral_traits": {
+      "risk_averse": true
+    },
+    "profile_id": "AIV_20250807_215525",
+    "creation_timestamp": "2025-08-07T21:55:25.227903",
+    "profile_quality": 0.57
+  },
+  "agent2_analysis": {
+    "macro": {
+      "report": "\u274c Analysis failed. Check logs for details.",
+      "signals": {}
+    },
+    "stocks": {
+      "prediction_date": "2025-08-07",
+      "total_analyzed": 5,
+      "successful_predictions": 5,
+      "market_conditions": {
+        "volatility_regime": "normal",
+        "trend_direction": "neutral",
+        "market_stress": 0.5,
+        "sector_rotation": "balanced"
+      },
+      "horizons": {
+        "next_quarter": [
+          {
+            "symbol": "JNJ",
+            "expected_return": 6.5,
+            "confidence": 0.6,
+            "sentiment": "Hold",
+            "summary": "Healthcare stock with P/E: 18.247873, Market Cap: $413,102,538,752",
+            "rank": 1,
+            "horizon": "next_quarter"
+          },
+          {
+            "symbol": "V",
+            "expected_return": 6.0,
+            "confidence": 0.6,
+            "sentiment": "Hold",
+            "summary": "Financial Services stock with P/E: 33.209, Market Cap: $659,414,515,712",
+            "rank": 2,
+            "horizon": "next_quarter"
+          },
+          {
+            "symbol": "MSFT",
+            "expected_return": 6.0,
+            "confidence": 0.6,
+            "sentiment": "Hold",
+            "summary": "Technology stock with P/E: 38.466766, Market Cap: $3,901,967,040,512",
+            "rank": 3,
+            "horizon": "next_quarter"
+          },
+          {
+            "symbol": "PG",
+            "expected_return": 5.5,
+            "confidence": 0.6,
+            "sentiment": "Hold",
+            "summary": "Consumer Defensive stock with P/E: 23.46942, Market Cap: $359,530,397,696",
+            "rank": 4,
+            "horizon": "next_quarter"
+          },
+          {
+            "symbol": "AAPL",
+            "expected_return": 5.0,
+            "confidence": 0.6,
+            "sentiment": "Hold",
+            "summary": "Technology stock with P/E: 32.357353, Market Cap: $3,265,333,035,008",
+            "rank": 5,
+            "horizon": "next_quarter"
+          }
+        ]
+      },
+      "analysis_summary": "Analyzed 5 NASDAQ-100 stocks, generated 5 predictions",
+      "macro_context_used": true,
+      "performance_metrics": {
+        "analysis_time": "2025-08-07T21:55:27.758014",
+        "symbols_processed": 5,
+        "success_rate": 1.0
+      }
+    },
+    "bonds": {
+      "prediction_date": "2025-08-07",
+      "analysis_type": "LLM-enhanced bond analysis",
+      "total_bonds": 4,
+      "horizons": {
+        "next_quarter": [
+          {
+            "ticker": "BND",
+            "bond_type": "aggregate",
+            "duration": "intermediate",
+            "label": "Vanguard Total Bond Market Index...",
+            "expected_return": 0.03,
+            "rank": 1,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "BND, with its intermediate duration and current yield, is moderately sensitive to interest rate changes. The flat yield curve and stable credit spreads suggest limited upside in price appreciation,..."
+          },
+          {
+            "ticker": "IEF",
+            "bond_type": "treasury",
+            "duration": "long",
+            "label": "iShares 7-10 Year Treasury Bond ETF",
+            "expected_return": 0.02,
+            "rank": 2,
+            "sentiment": "neutral",
+            "confidence": 0.7,
+            "summary": "IEF, a long-duration treasury bond, is sensitive to interest rate changes. With a flat yield curve and stable Fed policy, significant price movement is unlikely. The bond's high credit quality and ..."
+          },
+          {
+            "ticker": "AGG",
+            "bond_type": "aggregate",
+            "duration": "intermediate",
+            "label": "iShares Core U.S. Aggregate Bond...",
+            "expected_return": 0.02,
+            "rank": 3,
+            "sentiment": "neutral",
+            "confidence": 0.7,
+            "summary": "AGG, with its intermediate duration, is moderately sensitive to interest rate changes. The flat yield curve suggests limited term premium, and stable credit spreads indicate low credit risk. Inflat..."
+          },
+          {
+            "ticker": "SHY",
+            "bond_type": "treasury",
+            "duration": "short",
+            "label": "iShares 1-3 Year Treasury Bond ETF",
+            "expected_return": 0.012,
+            "rank": 4,
+            "sentiment": "neutral",
+            "confidence": 0.85,
+            "summary": "SHY, being a short-duration treasury bond, exhibits low interest rate sensitivity and minimal credit risk, aligning well with a stable economic outlook and flat yield curve. With inflation expectat..."
+          }
+        ],
+        "next_year": [
+          {
+            "ticker": "BND",
+            "bond_type": "aggregate",
+            "duration": "intermediate",
+            "label": "Vanguard Total Bond Market Index...",
+            "expected_return": 0.038,
+            "rank": 1,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "BND, being an aggregate bond fund with intermediate duration, is moderately sensitive to interest rate changes. Given the flat yield curve and stable Fed policy stance, the bond's yield is likely t..."
+          },
+          {
+            "ticker": "SHY",
+            "bond_type": "treasury",
+            "duration": "short",
+            "label": "iShares 1-3 Year Treasury Bond ETF",
+            "expected_return": 0.03,
+            "rank": 2,
+            "sentiment": "neutral",
+            "confidence": 0.85,
+            "summary": "SHY, being a short-duration treasury bond, exhibits low interest rate sensitivity, making it relatively stable in the current flat yield curve environment. With a strong credit quality as a treasur..."
+          },
+          {
+            "ticker": "IEF",
+            "bond_type": "treasury",
+            "duration": "long",
+            "label": "iShares 7-10 Year Treasury Bond ETF",
+            "expected_return": 0.03,
+            "rank": 3,
+            "sentiment": "neutral",
+            "confidence": 0.65,
+            "summary": "The IEF, a long-duration treasury bond, exhibits interest rate sensitivity, particularly in a flat yield curve and mild inflation expectation environment. With a distribution yield of 3.75% and no ..."
+          },
+          {
+            "ticker": "AGG",
+            "bond_type": "aggregate",
+            "duration": "intermediate",
+            "label": "iShares Core U.S. Aggregate Bond...",
+            "expected_return": 0.03,
+            "rank": 4,
+            "sentiment": "neutral",
+            "confidence": 0.7,
+            "summary": "AGG's intermediate duration indicates moderate interest rate sensitivity. With stable credit conditions and a flat yield curve, AGG is positioned neutrally. The distribution yield of 3.83% provides..."
+          }
+        ],
+        "long_term": [
+          {
+            "ticker": "BND",
+            "bond_type": "aggregate",
+            "duration": "intermediate",
+            "label": "Vanguard Total Bond Market Index...",
+            "expected_return": 0.05,
+            "rank": 1,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "BND, being an aggregate bond fund with intermediate duration, has moderate interest rate sensitivity. The flat yield curve suggests limited upside from duration extension. The current distribution ..."
+          },
+          {
+            "ticker": "IEF",
+            "bond_type": "treasury",
+            "duration": "long",
+            "label": "iShares 7-10 Year Treasury Bond ETF",
+            "expected_return": 0.045,
+            "rank": 2,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "IEF, as a long-duration treasury bond, exhibits high interest rate sensitivity. The Fed's neutral policy stance and flat yield curve indicate limited immediate price movement. Its credit risk is mi..."
+          },
+          {
+            "ticker": "AGG",
+            "bond_type": "aggregate",
+            "duration": "intermediate",
+            "label": "iShares Core U.S. Aggregate Bond...",
+            "expected_return": 0.035,
+            "rank": 3,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "AGG, as an intermediate duration aggregate bond, shows moderate interest rate sensitivity. With stable credit quality and a favorable expense ratio, it offers a decent distribution yield of 3.83%. ..."
+          },
+          {
+            "ticker": "SHY",
+            "bond_type": "treasury",
+            "duration": "short",
+            "label": "iShares 1-3 Year Treasury Bond ETF",
+            "expected_return": 0.03,
+            "rank": 4,
+            "sentiment": "neutral",
+            "confidence": 0.85,
+            "summary": "SHY, a short-duration treasury bond ETF, offers low interest rate sensitivity and credit risk due to its high-quality government backing. With inflation expectations at 2.5% and a flat yield curve,..."
+          }
+        ]
+      },
+      "market_conditions": {
+        "vix_level": 0.41424999237060545,
+        "interest_rate_trend": 0.01,
+        "yield_curve_slope": 0.0004399995803833004,
+        "inflation_expectations": 0.025,
+        "economic_growth": 0.02,
+        "credit_spreads": 0.015,
+        "fed_policy_stance": 0.0
+      },
+      "macro_context_used": false
+    },
+    "gold": {
+      "prediction_date": "2025-08-07",
+      "analysis_type": "Quantitative gold analysis",
+      "total_gold_investments": 5,
+      "horizons": {
+        "next_quarter": [
+          {
+            "ticker": "GDX",
+            "gold_type": "ETF",
+            "timeframe": "medium-term",
+            "label": "VanEck Gold Miners ETF",
+            "expected_return": 0.07,
+            "rank": 1,
+            "sentiment": "bullish",
+            "confidence": 0.75,
+            "summary": "GDX shows strong recent price performance and technical indicators suggest continued upward momentum, supported by moderate inflation expectations and geopolitical risks."
+          },
+          {
+            "ticker": "IAU",
+            "gold_type": "ETF",
+            "timeframe": "medium-term",
+            "label": "iShares Gold Trust",
+            "expected_return": 0.03,
+            "rank": 2,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "Gold ETF IAU is experiencing moderate price growth with stable technical indicators. Market conditions such as low interest rates and moderate geopolitical risk provide a balanced outlook."
+          },
+          {
+            "ticker": "GLD",
+            "gold_type": "ETF",
+            "timeframe": "medium-term",
+            "label": "SPDR Gold Shares",
+            "expected_return": 0.03,
+            "rank": 3,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "Gold is trading slightly above its moving averages with moderate momentum indicators, while macro conditions are mixed with stable economic growth and moderate geopolitical risks."
+          },
+          {
+            "ticker": "SGOL",
+            "gold_type": "ETF",
+            "timeframe": "medium-term",
+            "label": "abrdn Physical Gold Shares ETF",
+            "expected_return": 0.03,
+            "rank": 4,
+            "sentiment": "neutral",
+            "confidence": 0.7,
+            "summary": "Gold ETF SGOL shows moderate technical indicators and stable market conditions, with no strong bullish or bearish drivers evident."
+          },
+          {
+            "ticker": "GC=F",
+            "gold_type": "Futures",
+            "timeframe": "long-term",
+            "label": "Gold Dec 25",
+            "expected_return": 0.02,
+            "rank": 5,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "Gold futures show moderate technical strength with a stable RSI and positive MACD, but low volume suggests limited short-term momentum. Geopolitical risks and moderate inflation expectations provide a mixed outlook."
+          }
+        ],
+        "next_year": [
+          {
+            "ticker": "GDX",
+            "gold_type": "ETF",
+            "timeframe": "medium-term",
+            "label": "VanEck Gold Miners ETF",
+            "expected_return": 0.07,
+            "rank": 1,
+            "sentiment": "bullish",
+            "confidence": 0.75,
+            "summary": "GDX shows strong technical indicators with the RSI indicating overbought conditions, but macroeconomic factors like low interest rates and moderate inflation support continued growth."
+          },
+          {
+            "ticker": "IAU",
+            "gold_type": "ETF",
+            "timeframe": "medium-term",
+            "label": "iShares Gold Trust",
+            "expected_return": 0.04,
+            "rank": 2,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "Gold is currently showing moderate technical indicators with a stable macroeconomic backdrop, though muted volume suggests limited short-term momentum."
+          },
+          {
+            "ticker": "GLD",
+            "gold_type": "ETF",
+            "timeframe": "medium-term",
+            "label": "SPDR Gold Shares",
+            "expected_return": 0.04,
+            "rank": 3,
+            "sentiment": "bullish",
+            "confidence": 0.75,
+            "summary": "Gold ETF GLD shows moderate upward momentum with supportive macroeconomic conditions, including low interest rates and stable inflation expectations."
+          },
+          {
+            "ticker": "SGOL",
+            "gold_type": "ETF",
+            "timeframe": "medium-term",
+            "label": "abrdn Physical Gold Shares ETF",
+            "expected_return": 0.04,
+            "rank": 4,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "Gold ETF SGOL shows modest technical strength with a stable medium-term outlook, but market conditions remain mixed with moderate geopolitical risks and low real rates."
+          },
+          {
+            "ticker": "GC=F",
+            "gold_type": "Futures",
+            "timeframe": "long-term",
+            "label": "Gold Dec 25",
+            "expected_return": 0.03,
+            "rank": 5,
+            "sentiment": "bullish",
+            "confidence": 0.75,
+            "summary": "Gold futures show a bullish tendency supported by a positive MACD and moderate RSI. Geopolitical risks and inflation expectations favor gold as a safe-haven asset."
+          }
+        ],
+        "long_term": [
+          {
+            "ticker": "GDX",
+            "gold_type": "ETF",
+            "timeframe": "medium-term",
+            "label": "VanEck Gold Miners ETF",
+            "expected_return": 0.07,
+            "rank": 1,
+            "sentiment": "bullish",
+            "confidence": 0.75,
+            "summary": "GDX shows strong upward momentum with a high RSI and supportive macroeconomic factors, despite slightly lower current volume."
+          },
+          {
+            "ticker": "GC=F",
+            "gold_type": "Futures",
+            "timeframe": "long-term",
+            "label": "Gold Dec 25",
+            "expected_return": 0.03,
+            "rank": 2,
+            "sentiment": "neutral",
+            "confidence": 0.7,
+            "summary": "Gold's technical indicators suggest moderate momentum, but low volume and mixed market conditions imply a neutral outlook."
+          },
+          {
+            "ticker": "IAU",
+            "gold_type": "ETF",
+            "timeframe": "medium-term",
+            "label": "iShares Gold Trust",
+            "expected_return": 0.03,
+            "rank": 3,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "Gold ETF IAU shows moderate technical strength and stable fundamentals, with macro conditions providing mixed signals."
+          },
+          {
+            "ticker": "GLD",
+            "gold_type": "ETF",
+            "timeframe": "medium-term",
+            "label": "SPDR Gold Shares",
+            "expected_return": 0.03,
+            "rank": 4,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "Gold's technical indicators show slight positive momentum, but market conditions are mixed with moderate geopolitical risks and stable real rates."
+          },
+          {
+            "ticker": "SGOL",
+            "gold_type": "ETF",
+            "timeframe": "medium-term",
+            "label": "abrdn Physical Gold Shares ETF",
+            "expected_return": 0.03,
+            "rank": 5,
+            "sentiment": "neutral",
+            "confidence": 0.75,
+            "summary": "Gold ETF SGOL shows moderate technical indicators with slightly positive medium-term price changes. Stable macroeconomic factors suggest a steady outlook."
+          }
+        ]
+      },
+      "market_conditions": {
+        "vix_level": 0.41424999237060545,
+        "dollar_strength": 0.8176750183105469,
+        "inflation_expectations": 0.025,
+        "interest_rate_trend": 0.01,
+        "economic_growth": 0.02,
+        "geopolitical_risk": 0.5,
+        "real_rates": 0.01
+      },
+      "macro_context_used": false
+    }
+  },
+  "agent3_portfolio": {
+    "allocations": [
+      {
+        "ticker": "GC=F",
+        "asset_class": "gold",
+        "weight": 0.08333333333333333,
+        "dollar_amount": 1666.6666666666665,
+        "shares": 16,
+        "entry_price": 100.22588230111664,
+        "expected_return": 0.02,
+        "risk_contribution": 0.012499999999999999,
+        "implementation_priority": 1,
+        "execution_instructions": "Market order acceptable"
+      },
+      {
+        "ticker": "VCLT",
+        "asset_class": "bond",
+        "weight": 0.08333333333333333,
+        "dollar_amount": 1666.6666666666665,
+        "shares": 17,
+        "entry_price": 96.98547340079104,
+        "expected_return": 0.03,
+        "risk_contribution": 0.006666666666666666,
+        "implementation_priority": 2,
+        "execution_instructions": "Place limit order at mid-point"
+      },
+      {
+        "ticker": "TIP",
+        "asset_class": "bond",
+        "weight": 0.08333333333333333,
+        "dollar_amount": 1666.6666666666665,
+        "shares": 16,
+        "entry_price": 100.42541853424312,
+        "expected_return": 0.025,
+        "risk_contribution": 0.006666666666666666,
+        "implementation_priority": 3,
+        "execution_instructions": "Place limit order at mid-point"
+      },
+      {
+        "ticker": "EMB",
+        "asset_class": "bond",
+        "weight": 0.08333333333333333,
+        "dollar_amount": 1666.6666666666665,
+        "shares": 16,
+        "entry_price": 99.69281571718449,
+        "expected_return": 0.03,
+        "risk_contribution": 0.006666666666666666,
+        "implementation_priority": 4,
+        "execution_instructions": "Place limit order at mid-point"
+      },
+      {
+        "ticker": "HYG",
+        "asset_class": "bond",
+        "weight": 0.08333333333333333,
+        "dollar_amount": 1666.6666666666665,
+        "shares": 16,
+        "entry_price": 100.33425080415074,
+        "expected_return": 0.03,
+        "risk_contribution": 0.006666666666666666,
+        "implementation_priority": 5,
+        "execution_instructions": "Place limit order at mid-point"
+      },
+      {
+        "ticker": "GLD",
+        "asset_class": "gold",
+        "weight": 0.08333333333333333,
+        "dollar_amount": 1666.6666666666665,
+        "shares": 17,
+        "entry_price": 96.55257640838666,
+        "expected_return": 0.03,
+        "risk_contribution": 0.012499999999999999,
+        "implementation_priority": 6,
+        "execution_instructions": "Market order acceptable"
+      },
+      {
+        "ticker": "IAU",
+        "asset_class": "gold",
+        "weight": 0.08333333333333333,
+        "dollar_amount": 1666.6666666666665,
+        "shares": 16,
+        "entry_price": 101.24370880671822,
+        "expected_return": 0.03,
+        "risk_contribution": 0.012499999999999999,
+        "implementation_priority": 7,
+        "execution_instructions": "Market order acceptable"
+      },
+      {
+        "ticker": "LQD",
+        "asset_class": "bond",
+        "weight": 0.08333333333333333,
+        "dollar_amount": 1666.6666666666665,
+        "shares": 17,
+        "entry_price": 97.79834749428692,
+        "expected_return": 0.03,
+        "risk_contribution": 0.006666666666666666,
+        "implementation_priority": 8,
+        "execution_instructions": "Place limit order at mid-point"
+      },
+      {
+        "ticker": "IGSB",
+        "asset_class": "bond",
+        "weight": 0.08333333333333333,
+        "dollar_amount": 1666.6666666666665,
+        "shares": 16,
+        "entry_price": 100.90300638422423,
+        "expected_return": 0.03,
+        "risk_contribution": 0.006666666666666666,
+        "implementation_priority": 9,
+        "execution_instructions": "Place limit order at mid-point"
+      },
+      {
+        "ticker": "IEF",
+        "asset_class": "bond",
+        "weight": 0.08333333333333333,
+        "dollar_amount": 1666.6666666666665,
+        "shares": 17,
+        "entry_price": 97.33481739483115,
+        "expected_return": 0.03,
+        "risk_contribution": 0.006666666666666666,
+        "implementation_priority": 10,
+        "execution_instructions": "Place limit order at mid-point"
+      },
+      {
+        "ticker": "JNK",
+        "asset_class": "bond",
+        "weight": 0.08333333333333333,
+        "dollar_amount": 1666.6666666666665,
+        "shares": 16,
+        "entry_price": 99.21684511938558,
+        "expected_return": 0.045,
+        "risk_contribution": 0.006666666666666666,
+        "implementation_priority": 11,
+        "execution_instructions": "Place limit order at mid-point"
+      },
+      {
+        "ticker": "GDX",
+        "asset_class": "gold",
+        "weight": 0.08333333333333333,
+        "dollar_amount": 1666.6666666666665,
+        "shares": 16,
+        "entry_price": 98.98752454756207,
+        "expected_return": 0.07,
+        "risk_contribution": 0.012499999999999999,
+        "implementation_priority": 12,
+        "execution_instructions": "Market order acceptable"
+      }
+    ],
+    "risk_metrics": {
+      "portfolio_volatility": 0.07178434048756964,
+      "sharpe_ratio": -0.16252383998271744,
+      "sortino_ratio": -0.23217691426102494,
+      "max_drawdown": 0.1794608512189241,
+      "var_95": 0.08474139947596505,
+      "cvar_95": 0.11473714516885039,
+      "beta": 0.3140564896331171,
+      "alpha": -0.02893977359648811,
+      "information_ratio": -0.5787954719297622,
+      "calmar_ratio": 0.18574153140881977,
+      "correlation_risk": 0.447285021644387,
+      "concentration_risk": 0.08333333333333334
+    },
+    "expected_performance": {
+      "1_year": {
+        "expected_value": 1.0333333333333334,
+        "best_case": 1.1769020143084727,
+        "worst_case": 0.8897646523581941,
+        "probability_positive": 0.6788028679459821
+      },
+      "5_year": {
+        "expected_value": 1.1781543621399182,
+        "best_case": 1.648324153494938,
+        "worst_case": 0.8219721187734295,
+        "probability_double": 0.9994791878975358
+      },
+      "10_year": {
+        "expected_value": 1.3880477010293177,
+        "best_case": 2.2316151995175963,
+        "worst_case": 0.9747042734329009,
+        "probability_triple": 0.9996281640053969
+      }
+    },
+    "rebalancing_schedule": {
+      "frequency": "semi-annual",
+      "threshold": 0.07,
+      "method": "threshold_based",
+      "tax_aware": false,
+      "next_rebalance": "2026-02-03",
+      "estimated_cost": 20.0
+    },
+    "tax_optimization": {
+      "tax_loss_harvesting": false,
+      "asset_location": {},
+      "holding_period": {},
+      "estimated_tax_savings": 0
+    },
+    "implementation_plan": [
+      "1\ufe0f\u20e3 Open account: Start with a taxable brokerage account",
+      "2\ufe0f\u20e3 Timing: Market conditions favorable for immediate implementation",
+      "3\ufe0f\u20e3 Execution Order:",
+      "   \u2022 Bonds first (most stable prices): VCLT, TIP, EMB",
+      "   \u2022 Alternatives last: GC=F, GLD",
+      "4\ufe0f\u20e3 Trading Instructions:",
+      "   \u2022 Use limit orders for positions > $5,000",
+      "   \u2022 Market orders acceptable for liquid ETFs",
+      "   \u2022 Avoid trading in first/last 30 minutes",
+      "5\ufe0f\u20e3 Post-Implementation:",
+      "   \u2022 Set up automatic rebalancing alerts",
+      "   \u2022 Enable dividend reinvestment",
+      "   \u2022 Schedule quarterly review"
+    ],
+    "monitoring_alerts": [
+      {
+        "type": "drawdown",
+        "threshold": 0.08973042560946205,
+        "message": "Alert when portfolio drops 9.0%",
+        "severity": "high"
+      },
+      {
+        "type": "position_deviation",
+        "ticker": "GC=F",
+        "threshold": 0.05,
+        "message": "Alert when GC=F deviates 5% from target",
+        "severity": "medium"
+      },
+      {
+        "type": "position_deviation",
+        "ticker": "VCLT",
+        "threshold": 0.05,
+        "message": "Alert when VCLT deviates 5% from target",
+        "severity": "medium"
+      },
+      {
+        "type": "position_deviation",
+        "ticker": "TIP",
+        "threshold": 0.05,
+        "message": "Alert when TIP deviates 5% from target",
+        "severity": "medium"
+      },
+      {
+        "type": "position_deviation",
+        "ticker": "EMB",
+        "threshold": 0.05,
+        "message": "Alert when EMB deviates 5% from target",
+        "severity": "medium"
+      },
+      {
+        "type": "position_deviation",
+        "ticker": "HYG",
+        "threshold": 0.05,
+        "message": "Alert when HYG deviates 5% from target",
+        "severity": "medium"
+      },
+      {
+        "type": "volatility_spike",
+        "threshold": 0.10767651073135445,
+        "message": "Alert when volatility increases 50%",
+        "severity": "high"
+      },
+      {
+        "type": "correlation_change",
+        "threshold": 0.2,
+        "message": "Alert when correlations increase significantly",
+        "severity": "medium"
+      }
+    ],
+    "ai_insights": "\ud83d\udee1\ufe0f Conservative portfolio with low volatility - suitable for capital preservation | \ud83c\udf10 Excellent diversification across assets - well-protected against single-asset risk | \ud83c\udfdb\ufe0f Income-focused with 67% fixed income allocation"
+  },
+  "final_recommendation": {
+    "session_id": "session_20250807_215402",
+    "user_profile_summary": {
+      "investment_amount": 20000.0,
+      "risk_level": "conservative",
+      "time_horizon": 5,
+      "investment_goal": "wealth"
+    },
+    "portfolio_allocation": null,
+    "specific_recommendations": null,
+    "expected_annual_return": "0.0%",
+    "reasoning": null,
+    "implementation_plan": {
+      "immediate_actions": [
+        "Review and approve the recommended allocation",
+        "Open investment accounts if needed",
+        "Execute trades according to allocation"
+      ],
+      "monitoring": [
+        "Rebalance quarterly or when allocation drifts >5%",
+        "Review annually or when life circumstances change"
+      ]
+    },
+    "risk_warnings": [
+      "Past performance does not guarantee future results",
+      "All investments carry risk of loss",
+      "Consider consulting with a financial advisor"
+    ]
+  }
+}

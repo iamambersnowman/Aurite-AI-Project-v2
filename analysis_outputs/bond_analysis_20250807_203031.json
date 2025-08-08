@@ -1,0 +1,485 @@
+{
+  "prediction_date": "2025-08-07",
+  "analysis_type": "LLM-enhanced bond analysis",
+  "total_bonds": 14,
+  "horizons": {
+    "next_quarter": [
+      {
+        "ticker": "JNK",
+        "bond_type": "high_yield",
+        "duration": "mixed",
+        "label": "SPDR Bloomberg High Yield Bond ETF",
+        "expected_return": 0.045,
+        "rank": 1,
+        "sentiment": "neutral",
+        "confidence": 0.65,
+        "summary": "JNK, a high-yield bond with mixed duration, shows moderate interest rate sensitivity due to its diverse maturities. The stable yield curve and low credit spreads suggest a stable credit environment..."
+      },
+      {
+        "ticker": "IEF",
+        "bond_type": "treasury",
+        "duration": "long",
+        "label": "iShares 7-10 Year Treasury Bond ETF",
+        "expected_return": 0.03,
+        "rank": 2,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "IEF, a long-duration treasury bond, is sensitive to interest rate changes. With a stable yield curve and unchanged Fed policy, interest rate risk is moderate. The credit quality is high given it's ..."
+      },
+      {
+        "ticker": "IGSB",
+        "bond_type": "corporate",
+        "duration": "short",
+        "label": "iShares 1-5 Year Investment Grad...",
+        "expected_return": 0.03,
+        "rank": 3,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "IGSB, a short-duration corporate bond, is relatively insulated from interest rate volatility due to its short duration, making it less sensitive to the current flat yield curve and modest interest ..."
+      },
+      {
+        "ticker": "LQD",
+        "bond_type": "corporate",
+        "duration": "mixed",
+        "label": "iShares iBoxx $ Investment Grade...",
+        "expected_return": 0.03,
+        "rank": 4,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "LQD's mixed duration profile offers moderate interest rate sensitivity, with current stable Fed policy and minimal yield curve slope suggesting limited volatility. Credit risk appears manageable gi..."
+      },
+      {
+        "ticker": "VCLT",
+        "bond_type": "corporate",
+        "duration": "long",
+        "label": "Vanguard Long-Term Corporate Bon...",
+        "expected_return": 0.03,
+        "rank": 5,
+        "sentiment": "neutral",
+        "confidence": 0.6,
+        "summary": "VCLT, being a long-duration corporate bond, is highly sensitive to interest rate changes. With a stable interest rate trend and flat yield curve, the interest rate risk remains moderate. Credit spr..."
+      },
+      {
+        "ticker": "HYG",
+        "bond_type": "high_yield",
+        "duration": "mixed",
+        "label": "iShares iBoxx $ High Yield Corpo...",
+        "expected_return": 0.03,
+        "rank": 6,
+        "sentiment": "neutral",
+        "confidence": 0.65,
+        "summary": "HYG, a high-yield bond with mixed duration, presents moderate interest rate sensitivity, especially given the current stable yield curve and minimal interest rate changes. The credit risk remains s..."
+      },
+      {
+        "ticker": "EMB",
+        "bond_type": "emerging_market",
+        "duration": "mixed",
+        "label": "iShares J.P. Morgan USD Emerging...",
+        "expected_return": 0.03,
+        "rank": 7,
+        "sentiment": "neutral",
+        "confidence": 0.65,
+        "summary": "EMB's mixed duration suggests moderate interest rate sensitivity. With stable interest rates and a flat yield curve, the bond may see limited price movement. Credit risk is moderate due to emerging..."
+      },
+      {
+        "ticker": "TIP",
+        "bond_type": "tips",
+        "duration": "mixed",
+        "label": "iShares TIPS Bond ETF",
+        "expected_return": 0.025,
+        "rank": 8,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "TIPs provide inflation protection, which is beneficial given current inflation expectations of 2.5%. With a mixed duration, these bonds have moderate interest rate sensitivity. The flat yield curve..."
+      },
+      {
+        "ticker": "VGSH",
+        "bond_type": "treasury",
+        "duration": "short",
+        "label": "Vanguard Short-Term Treasury Ind...",
+        "expected_return": 0.02,
+        "rank": 9,
+        "sentiment": "neutral",
+        "confidence": 0.85,
+        "summary": "VGSH, a short-duration treasury, exhibits low interest rate sensitivity, making it relatively stable in the current flat yield curve environment. With high credit quality and a distribution yield o..."
+      },
+      {
+        "ticker": "BWX",
+        "bond_type": "international",
+        "duration": "mixed",
+        "label": "SPDR Bloomberg International Tre...",
+        "expected_return": 0.02,
+        "rank": 10,
+        "sentiment": "neutral",
+        "confidence": 0.65,
+        "summary": "BWX, with its international and mixed duration characteristics, shows moderate interest rate sensitivity. The flat yield curve and modest economic growth suggest limited upside in the next quarter...."
+      },
+      {
+        "ticker": "VTEB",
+        "bond_type": "municipal",
+        "duration": "intermediate",
+        "label": "Vanguard Tax-Exempt Bond Index F...",
+        "expected_return": 0.015,
+        "rank": 11,
+        "sentiment": "neutral",
+        "confidence": 0.7,
+        "summary": "VTEB, an intermediate-duration municipal bond, shows moderate interest rate sensitivity. With stable credit quality and a reasonable distribution yield of 3.30%, VTEB is well-positioned amid stable..."
+      },
+      {
+        "ticker": "AGG",
+        "bond_type": "aggregate",
+        "duration": "intermediate",
+        "label": "iShares Core U.S. Aggregate Bond...",
+        "expected_return": 0.014,
+        "rank": 12,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "AGG's intermediate duration makes it moderately sensitive to interest rate changes; however, the current stable interest rate trend and flat yield curve suggest limited volatility in returns. The b..."
+      },
+      {
+        "ticker": "SHY",
+        "bond_type": "treasury",
+        "duration": "short",
+        "label": "iShares 1-3 Year Treasury Bond ETF",
+        "expected_return": 0.01,
+        "rank": 13,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "SHY, a short duration treasury bond, is expected to have minimal interest rate sensitivity given its duration profile. With the current flat yield curve and stable Fed policy, substantial price mov..."
+      },
+      {
+        "ticker": "TLT",
+        "bond_type": "treasury",
+        "duration": "long",
+        "label": "iShares 20+ Year Treasury Bond ETF",
+        "expected_return": -0.02,
+        "rank": 14,
+        "sentiment": "bearish",
+        "confidence": 0.7,
+        "summary": "TLT is highly sensitive to interest rate changes due to its long duration, and with a slightly rising interest rate trend, price pressure is expected. The flat yield curve indicates limited benefit..."
+      }
+    ],
+    "next_year": [
+      {
+        "ticker": "JNK",
+        "bond_type": "high_yield",
+        "duration": "mixed",
+        "label": "SPDR Bloomberg High Yield Bond ETF",
+        "expected_return": 0.07,
+        "rank": 1,
+        "sentiment": "neutral",
+        "confidence": 0.65,
+        "summary": "JNK, a high-yield bond with mixed duration, shows moderate interest rate sensitivity. The stable yield curve and unchanged Fed policy suggest minimal changes in interest rate influence. Credit risk..."
+      },
+      {
+        "ticker": "EMB",
+        "bond_type": "emerging_market",
+        "duration": "mixed",
+        "label": "iShares J.P. Morgan USD Emerging...",
+        "expected_return": 0.07,
+        "rank": 2,
+        "sentiment": "neutral",
+        "confidence": 0.65,
+        "summary": "The EMB bond, with its mixed duration, is moderately sensitive to interest rate changes, which are currently stable. Emerging market bonds typically carry higher credit risk, but current credit spr..."
+      },
+      {
+        "ticker": "HYG",
+        "bond_type": "high_yield",
+        "duration": "mixed",
+        "label": "iShares iBoxx $ High Yield Corpo...",
+        "expected_return": 0.053,
+        "rank": 3,
+        "sentiment": "neutral",
+        "confidence": 0.7,
+        "summary": "HYG offers a high yield but has significant credit risk due to its high-yield nature. The mixed duration profile provides moderate interest rate sensitivity. With a flat yield curve and modest econ..."
+      },
+      {
+        "ticker": "IGSB",
+        "bond_type": "corporate",
+        "duration": "short",
+        "label": "iShares 1-5 Year Investment Grad...",
+        "expected_return": 0.05,
+        "rank": 4,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "IGSB, a short-duration corporate bond fund, shows moderate interest rate sensitivity due to its short duration, making it less exposed to interest rate fluctuations. The stable price changes and lo..."
+      },
+      {
+        "ticker": "TIP",
+        "bond_type": "tips",
+        "duration": "mixed",
+        "label": "iShares TIPS Bond ETF",
+        "expected_return": 0.045,
+        "rank": 5,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "The TIP bond, with its mixed duration, provides a moderate hedge against inflation due to its inflation-protection feature. Given the current stable interest rate environment and flat yield curve, ..."
+      },
+      {
+        "ticker": "IEF",
+        "bond_type": "treasury",
+        "duration": "long",
+        "label": "iShares 7-10 Year Treasury Bond ETF",
+        "expected_return": 0.04,
+        "rank": 6,
+        "sentiment": "neutral",
+        "confidence": 0.65,
+        "summary": "IEF, a long-duration treasury bond, has moderate interest rate sensitivity due to its long duration, making it susceptible to rate hikes. However, current flat yield curve and stable Fed policy sug..."
+      },
+      {
+        "ticker": "AGG",
+        "bond_type": "aggregate",
+        "duration": "intermediate",
+        "label": "iShares Core U.S. Aggregate Bond...",
+        "expected_return": 0.04,
+        "rank": 7,
+        "sentiment": "neutral",
+        "confidence": 0.7,
+        "summary": "AGG's intermediate duration suggests moderate interest rate sensitivity. With a flat yield curve and stable credit spreads, the bond is not likely to face significant credit risk. The distribution ..."
+      },
+      {
+        "ticker": "LQD",
+        "bond_type": "corporate",
+        "duration": "mixed",
+        "label": "iShares iBoxx $ Investment Grade...",
+        "expected_return": 0.04,
+        "rank": 8,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "LQD, a corporate bond ETF with mixed duration, offers a distribution yield of 4.41%. Interest rate sensitivity is moderate due to its mixed duration, and current stable interest rates suggest limit..."
+      },
+      {
+        "ticker": "VCLT",
+        "bond_type": "corporate",
+        "duration": "long",
+        "label": "Vanguard Long-Term Corporate Bon...",
+        "expected_return": 0.04,
+        "rank": 9,
+        "sentiment": "neutral",
+        "confidence": 0.7,
+        "summary": "VCLT, being a long-duration corporate bond, is sensitive to interest rate changes and current flat yield curve dynamics. The distribution yield is attractive at 5.36%, but potential rate hikes coul..."
+      },
+      {
+        "ticker": "BWX",
+        "bond_type": "international",
+        "duration": "mixed",
+        "label": "SPDR Bloomberg International Tre...",
+        "expected_return": 0.04,
+        "rank": 10,
+        "sentiment": "neutral",
+        "confidence": 0.7,
+        "summary": "BWX exhibits moderate interest rate sensitivity due to its mixed duration profile. The flat yield curve and low interest rate trend suggest limited potential for yield enhancement, while inflation ..."
+      },
+      {
+        "ticker": "VGSH",
+        "bond_type": "treasury",
+        "duration": "short",
+        "label": "Vanguard Short-Term Treasury Ind...",
+        "expected_return": 0.035,
+        "rank": 11,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "VGSH, being a short-duration treasury bond, exhibits low interest rate sensitivity, making it less susceptible to rate hikes. Given its treasury status, credit risk is minimal. The yield curve is f..."
+      },
+      {
+        "ticker": "SHY",
+        "bond_type": "treasury",
+        "duration": "short",
+        "label": "iShares 1-3 Year Treasury Bond ETF",
+        "expected_return": 0.03,
+        "rank": 12,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "SHY, a short-duration treasury bond, offers stability in a low volatility environment with minimal credit risk due to its U.S. government backing. The flat yield curve and modest interest rate tren..."
+      },
+      {
+        "ticker": "VTEB",
+        "bond_type": "municipal",
+        "duration": "intermediate",
+        "label": "Vanguard Tax-Exempt Bond Index F...",
+        "expected_return": 0.03,
+        "rank": 13,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "VTEB, an intermediate-duration municipal bond, offers a stable 3.30% distribution yield with no expense ratio, making it attractive for income-seeking investors. The bond's sensitivity to interest ..."
+      },
+      {
+        "ticker": "TLT",
+        "bond_type": "treasury",
+        "duration": "long",
+        "label": "iShares 20+ Year Treasury Bond ETF",
+        "expected_return": -0.03,
+        "rank": 14,
+        "sentiment": "bearish",
+        "confidence": 0.65,
+        "summary": "TLT exhibits high interest rate sensitivity due to its long duration, making it vulnerable to potential rate hikes despite the current neutral Fed policy stance. The flat yield curve and stable cre..."
+      }
+    ],
+    "long_term": [
+      {
+        "ticker": "EMB",
+        "bond_type": "emerging_market",
+        "duration": "mixed",
+        "label": "iShares J.P. Morgan USD Emerging...",
+        "expected_return": 0.07,
+        "rank": 1,
+        "sentiment": "neutral",
+        "confidence": 0.65,
+        "summary": "The EMB bond, with its mixed duration and emerging market exposure, exhibits moderate interest rate sensitivity. Current stable interest rates and flat yield curve suggest limited immediate impact ..."
+      },
+      {
+        "ticker": "JNK",
+        "bond_type": "high_yield",
+        "duration": "mixed",
+        "label": "SPDR Bloomberg High Yield Bond ETF",
+        "expected_return": 0.06,
+        "rank": 2,
+        "sentiment": "neutral",
+        "confidence": 0.7,
+        "summary": "JNK offers a high yield, benefiting from a relatively stable interest rate environment and low expense ratio. However, its high-yield nature entails significant credit risk, especially if economic ..."
+      },
+      {
+        "ticker": "LQD",
+        "bond_type": "corporate",
+        "duration": "mixed",
+        "label": "iShares iBoxx $ Investment Grade...",
+        "expected_return": 0.05,
+        "rank": 3,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "LQD, a corporate bond with mixed duration, shows moderate interest rate sensitivity due to its duration profile. The current distribution yield of 4.41% is attractive, although the yield curve is f..."
+      },
+      {
+        "ticker": "SHY",
+        "bond_type": "treasury",
+        "duration": "short",
+        "label": "iShares 1-3 Year Treasury Bond ETF",
+        "expected_return": 0.045,
+        "rank": 4,
+        "sentiment": "neutral",
+        "confidence": 0.85,
+        "summary": "SHY, a short-duration treasury bond, is relatively insensitive to interest rate changes, making it a stable option in the current flat yield curve environment. With inflation expectations at 2.5% a..."
+      },
+      {
+        "ticker": "HYG",
+        "bond_type": "high_yield",
+        "duration": "mixed",
+        "label": "iShares iBoxx $ High Yield Corpo...",
+        "expected_return": 0.045,
+        "rank": 5,
+        "sentiment": "neutral",
+        "confidence": 0.65,
+        "summary": "HYG, being a high-yield bond with mixed duration, exhibits moderate interest rate sensitivity. The flat yield curve and stable interest rate trend suggest limited impact from rate changes. Credit r..."
+      },
+      {
+        "ticker": "IEF",
+        "bond_type": "treasury",
+        "duration": "long",
+        "label": "iShares 7-10 Year Treasury Bond ETF",
+        "expected_return": 0.04,
+        "rank": 6,
+        "sentiment": "neutral",
+        "confidence": 0.7,
+        "summary": "IEF, being a long-duration treasury bond, is highly sensitive to interest rate changes. Currently, the interest rate trend is slightly upward, which could negatively impact long-term bond prices. H..."
+      },
+      {
+        "ticker": "AGG",
+        "bond_type": "aggregate",
+        "duration": "intermediate",
+        "label": "iShares Core U.S. Aggregate Bond...",
+        "expected_return": 0.04,
+        "rank": 7,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "AGG, with its intermediate duration, offers moderate interest rate sensitivity, which could be favorable in a stable rate environment. The yield curve is flat, indicating limited term premium, and ..."
+      },
+      {
+        "ticker": "IGSB",
+        "bond_type": "corporate",
+        "duration": "short",
+        "label": "iShares 1-5 Year Investment Grad...",
+        "expected_return": 0.04,
+        "rank": 8,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "IGSB, a short-duration corporate bond, is less sensitive to interest rate changes, offering moderate protection against rising rates. Its 4.24% distribution yield is attractive, especially with low..."
+      },
+      {
+        "ticker": "TIP",
+        "bond_type": "tips",
+        "duration": "mixed",
+        "label": "iShares TIPS Bond ETF",
+        "expected_return": 0.04,
+        "rank": 9,
+        "sentiment": "neutral",
+        "confidence": 0.75,
+        "summary": "TIPs offer inflation protection, aligning well with current inflation expectations of 2.5%. The mixed duration mitigates some interest rate sensitivity, but with a flat yield curve and stable Fed p..."
+      },
+      {
+        "ticker": "VCLT",
+        "bond_type": "corporate",
+        "duration": "long",
+        "label": "Vanguard Long-Term Corporate Bon...",
+        "expected_return": 0.04,
+        "rank": 10,
+        "sentiment": "neutral",
+        "confidence": 0.7,
+        "summary": "VCLT, a long-duration corporate bond, exhibits sensitivity to interest rate changes, which could be a concern in a rising rate environment. With a distribution yield of 5.36% and stable credit spre..."
+      },
+      {
+        "ticker": "BWX",
+        "bond_type": "international",
+        "duration": "mixed",
+        "label": "SPDR Bloomberg International Tre...",
+        "expected_return": 0.04,
+        "rank": 11,
+        "sentiment": "neutral",
+        "confidence": 0.7,
+        "summary": "BWX exhibits moderate interest rate sensitivity due to its mixed duration profile, which provides some protection against rate fluctuations. The low credit spreads suggest a stable credit environme..."
+      },
+      {
+        "ticker": "VGSH",
+        "bond_type": "treasury",
+        "duration": "short",
+        "label": "Vanguard Short-Term Treasury Ind...",
+        "expected_return": 0.03,
+        "rank": 12,
+        "sentiment": "neutral",
+        "confidence": 0.8,
+        "summary": "VGSH, being a short-duration treasury bond, exhibits low interest rate sensitivity, making it relatively stable in volatile rate environments. Its credit risk is minimal due to its government backi..."
+      },
+      {
+        "ticker": "VTEB",
+        "bond_type": "municipal",
+        "duration": "intermediate",
+        "label": "Vanguard Tax-Exempt Bond Index F...",
+        "expected_return": 0.03,
+        "rank": 13,
+        "sentiment": "neutral",
+        "confidence": 0.7,
+        "summary": "VTEB, an intermediate duration municipal bond, offers a 3.30% distribution yield with no expense ratio, making it cost-effective. Its interest rate sensitivity is moderate due to its intermediate d..."
+      },
+      {
+        "ticker": "TLT",
+        "bond_type": "treasury",
+        "duration": "long",
+        "label": "iShares 20+ Year Treasury Bond ETF",
+        "expected_return": 0.03,
+        "rank": 14,
+        "sentiment": "neutral",
+        "confidence": 0.65,
+        "summary": "TLT, a long-duration treasury bond, is sensitive to interest rate changes, with recent price volatility indicating a moderate risk profile. Despite a negative 1-year return, its current distributio..."
+      }
+    ]
+  },
+  "market_conditions": {
+    "vix_level": 0.41424999237060545,
+    "interest_rate_trend": 0.01,
+    "yield_curve_slope": 0.0004399995803833004,
+    "inflation_expectations": 0.025,
+    "economic_growth": 0.02,
+    "credit_spreads": 0.015,
+    "fed_policy_stance": 0.0
+  },
+  "macro_context_used": false
+}

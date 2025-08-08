@@ -1,0 +1,255 @@
+{
+  "allocations": [
+    {
+      "ticker": "AMZN",
+      "asset_class": "stock",
+      "weight": 0.30666666747058047,
+      "dollar_amount": 6133.33334941161,
+      "shares": 61,
+      "entry_price": 99.40253862737643,
+      "expected_return": 0.12,
+      "risk_contribution": 0.07666666686764512,
+      "implementation_priority": 1,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "GOOGL",
+      "asset_class": "stock",
+      "weight": 0.3066666674705804,
+      "dollar_amount": 6133.333349411609,
+      "shares": 59,
+      "entry_price": 102.64549006646666,
+      "expected_return": 0.12,
+      "risk_contribution": 0.0766666668676451,
+      "implementation_priority": 2,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "MSFT",
+      "asset_class": "stock",
+      "weight": 0.30666666505883783,
+      "dollar_amount": 6133.333301176756,
+      "shares": 62,
+      "entry_price": 98.81879200459183,
+      "expected_return": 0.12,
+      "risk_contribution": 0.07666666626470946,
+      "implementation_priority": 3,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "TSLA",
+      "asset_class": "stock",
+      "weight": 0.01000000000000041,
+      "dollar_amount": 200.00000000000819,
+      "shares": 1,
+      "entry_price": 100.91517974148907,
+      "expected_return": 0.08,
+      "risk_contribution": 0.0015000000000000614,
+      "implementation_priority": 4,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "GC=F",
+      "asset_class": "gold",
+      "weight": 0.010000000000000224,
+      "dollar_amount": 200.0000000000045,
+      "shares": 1,
+      "entry_price": 103.1980659901462,
+      "expected_return": 0.02,
+      "risk_contribution": 0.0015000000000000336,
+      "implementation_priority": 5,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "IAU",
+      "asset_class": "gold",
+      "weight": 0.010000000000000212,
+      "dollar_amount": 200.00000000000423,
+      "shares": 2,
+      "entry_price": 98.4735927948588,
+      "expected_return": 0.03,
+      "risk_contribution": 0.0015000000000000317,
+      "implementation_priority": 6,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "NVDA",
+      "asset_class": "stock",
+      "weight": 0.010000000000000139,
+      "dollar_amount": 200.00000000000279,
+      "shares": 2,
+      "entry_price": 98.78669056945137,
+      "expected_return": 0.08,
+      "risk_contribution": 0.0015000000000000208,
+      "implementation_priority": 7,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "GLD",
+      "asset_class": "gold",
+      "weight": 0.010000000000000137,
+      "dollar_amount": 200.00000000000276,
+      "shares": 2,
+      "entry_price": 97.71019842492417,
+      "expected_return": 0.03,
+      "risk_contribution": 0.0015000000000000206,
+      "implementation_priority": 8,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "META",
+      "asset_class": "stock",
+      "weight": 0.010000000000000115,
+      "dollar_amount": 200.0000000000023,
+      "shares": 2,
+      "entry_price": 97.63734682749737,
+      "expected_return": 0.08,
+      "risk_contribution": 0.0015000000000000172,
+      "implementation_priority": 9,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "AAPL",
+      "asset_class": "stock",
+      "weight": 0.010000000000000077,
+      "dollar_amount": 200.00000000000153,
+      "shares": 2,
+      "entry_price": 99.46077127125555,
+      "expected_return": 0.08,
+      "risk_contribution": 0.0015000000000000115,
+      "implementation_priority": 10,
+      "execution_instructions": "Market order acceptable"
+    },
+    {
+      "ticker": "GDX",
+      "asset_class": "gold",
+      "weight": 0.010000000000000002,
+      "dollar_amount": 200.00000000000003,
+      "shares": 2,
+      "entry_price": 99.0067707970398,
+      "expected_return": 0.07,
+      "risk_contribution": 0.0015000000000000002,
+      "implementation_priority": 11,
+      "execution_instructions": "Market order acceptable"
+    }
+  ],
+  "risk_metrics": {
+    "portfolio_volatility": 0.2190842905209549,
+    "sharpe_ratio": 0.3199681722195185,
+    "sortino_ratio": 0.4570973888850265,
+    "max_drawdown": 0.5477107263023873,
+    "var_95": 0.24526158987148294,
+    "cvar_95": 0.3368079719812514,
+    "beta": 0.9584937710291777,
+    "alpha": 0.017382842593395148,
+    "information_ratio": 0.34765685186790296,
+    "calmar_ratio": 0.21014742723233434,
+    "correlation_risk": 0.5645298940503298,
+    "concentration_risk": 0.28293333333333254
+  },
+  "expected_performance": {
+    "1_year": {
+      "expected_value": 1.1151,
+      "best_case": 1.5532685810419098,
+      "worst_case": 0.6769314189580902,
+      "probability_positive": 0.7003365002315086
+    },
+    "5_year": {
+      "expected_value": 1.7241263095292076,
+      "best_case": 4.227456169717563,
+      "worst_case": 0.577534749385166,
+      "probability_double": 0.5947771357927533
+    },
+    "10_year": {
+      "expected_value": 2.9726115312108052,
+      "best_case": 10.783614492983332,
+      "worst_case": 1.0569893895224265,
+      "probability_triple": 0.47008461797849194
+    }
+  },
+  "rebalancing_schedule": {
+    "frequency": "monthly",
+    "threshold": 0.03,
+    "method": "threshold_based",
+    "tax_aware": false,
+    "next_rebalance": "2025-09-06",
+    "estimated_cost": 20.0
+  },
+  "tax_optimization": {
+    "tax_loss_harvesting": false,
+    "asset_location": {},
+    "holding_period": {},
+    "estimated_tax_savings": 0
+  },
+  "implementation_plan": [
+    "1\ufe0f\u20e3 Open account: Start with a taxable brokerage account",
+    "2\ufe0f\u20e3 Timing: Market conditions favorable for immediate implementation",
+    "3\ufe0f\u20e3 Execution Order:",
+    "   \u2022 Large-cap stocks next: AMZN, GOOGL, MSFT, TSLA, NVDA",
+    "   \u2022 Alternatives last: GC=F, IAU",
+    "4\ufe0f\u20e3 Trading Instructions:",
+    "   \u2022 Use limit orders for positions > $5,000",
+    "   \u2022 Market orders acceptable for liquid ETFs",
+    "   \u2022 Avoid trading in first/last 30 minutes",
+    "5\ufe0f\u20e3 Post-Implementation:",
+    "   \u2022 Set up automatic rebalancing alerts",
+    "   \u2022 Enable dividend reinvestment",
+    "   \u2022 Schedule quarterly review"
+  ],
+  "monitoring_alerts": [
+    {
+      "type": "drawdown",
+      "threshold": 0.27385536315119363,
+      "message": "Alert when portfolio drops 27.4%",
+      "severity": "high"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "AMZN",
+      "threshold": 0.05,
+      "message": "Alert when AMZN deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "GOOGL",
+      "threshold": 0.05,
+      "message": "Alert when GOOGL deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "MSFT",
+      "threshold": 0.05,
+      "message": "Alert when MSFT deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "TSLA",
+      "threshold": 0.05,
+      "message": "Alert when TSLA deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "position_deviation",
+      "ticker": "GC=F",
+      "threshold": 0.05,
+      "message": "Alert when GC=F deviates 5% from target",
+      "severity": "medium"
+    },
+    {
+      "type": "volatility_spike",
+      "threshold": 0.32862643578143236,
+      "message": "Alert when volatility increases 50%",
+      "severity": "high"
+    },
+    {
+      "type": "correlation_change",
+      "threshold": 0.2,
+      "message": "Alert when correlations increase significantly",
+      "severity": "medium"
+    }
+  ],
+  "ai_insights": "\u26a1 High growth potential with elevated volatility - ensure this matches your risk tolerance | \u26a0\ufe0f Portfolio is concentrated - consider diversifying to reduce risk | \ud83d\udcc8 Growth-focused with 96% equity allocation"
+}

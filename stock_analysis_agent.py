@@ -1352,6 +1352,16 @@ Batch Analysis Features:
                 f.write(output_json)
             print(f"Results saved: {output_path}")
         else:
+            # Auto-save to analysis_outputs folder when no output specified
+            output_dir = Path("analysis_outputs")
+            output_dir.mkdir(exist_ok=True)
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            auto_filename = f"stock_analysis_{timestamp}.json"
+            auto_path = output_dir / auto_filename
+            
+            with open(auto_path, 'w', encoding='utf-8') as f:
+                f.write(output_json)
+            print(f"Results auto-saved to: {auto_path}")
             print(output_json)
         
         # Status check
